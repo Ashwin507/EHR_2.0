@@ -17,15 +17,14 @@ python -m pip install -r requirements.txt
 python manage.py migrate
 python manage.py run server
 
-```project setup:
-https://youtube.com/playlist?list=PL54V-i7zW55d1VKxEkp9DCPt5k_zE6m3X
 
 open GANACHE and import project 
 open CMD in the Client Directory
 
 ```
 npm install --force
-truffle migratenpm start
+truffle migrate
+npm start
 
 ```
 
@@ -36,9 +35,6 @@ open: http://localhost:4200/
 **** CLEARING THE SERVER  AND CLIENT ***
 in Server dir:python manage.py flush
 in CLient :truffle migrate
-
-if any confusion please let me know.
-
 
 
 ```
